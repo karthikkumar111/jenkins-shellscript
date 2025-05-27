@@ -1,4 +1,5 @@
 yum install git -y
+yum install maven -y
 #java dependency for jenkins
 sudo yum install java-17-amazon-corretto -y
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
