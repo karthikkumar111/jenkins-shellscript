@@ -1,3 +1,4 @@
+PS1="\[\e[1;36m\][\u@\h \W]\\$\[\e[0m\] "
 yum install git -y
 sudo yum install java-17-amazon-corretto -y
 yum install maven -y
