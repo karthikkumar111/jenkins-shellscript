@@ -1,2 +1,2 @@
 # jenkins.sh
-git, java17, jenkins installation and setup
+git,maven, java 1.8.0, jenkins, java17, installation and setup
