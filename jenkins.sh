@@ -18,7 +18,7 @@ sudo wget -O /etc/yum.repos.d/jenkins.repo \
 sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io-2023.key
 sudo dnf upgrade
 # Add required dependencies for the jenkins package
-sudo dnf install fontconfig java-21-openjdk
+sudo dnf install fontconfig java-21-openjdk -y
 sudo dnf install jenkins
 sudo systemctl enable jenkins
 sudo systemctl start jenkins
